@@ -1,0 +1,19 @@
+source code : 
+
+input_sentence = "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN, SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC and to secure to all its citizens"
+print ("input_sentence : " + input_sentence)
+
+print ("\n\n")
+
+formatted_sentence = input_sentence.replace("INDIA, ", "INDIA,\n\t").replace("SOVEREIGN, ", "SOVEREIGN, !\n\t\t").replace("REPUBLIC ", "REPUBLIC \n\t\t") 
+print ("Formatted sentence : " + formatted_sentence)
+
+
+Sample output : 
+ 
+ 
+ 
+Formatted sentence : WE, THE PEOPLE OF INDIA,
+	having solemnly resolved to constitute India into a SOVEREIGN, !
+		SOCIALIST, SECULAR, DEMOCRATIC REPUBLIC 
+		and to secure to all its citizens
